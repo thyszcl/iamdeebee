@@ -1,0 +1,59 @@
+#header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right:0;
+    background-color: rgb(49, 49, 170);
+    height:80px;
+    padding-bottom: 10px;
+    text-align: center;
+
+}
+
+#searchBar{
+    width:1500px;
+    height:45px;
+    border-radius: 10px;
+    margin-left: 50px;
+    font-size: medium;
+    margin-top: 20px;
+}
+
+#mainCont{display:grid; grid-template-columns: 450px 100% ; margin-top: 150px; justify-self: center;}
+
+#infoDiv{align-content:center; margin-left: 20px;}
+
+#title{margin: 0%; margin-left: 5px;}
+
+#miscInfo{margin: 0%; margin-left: 5px; color: rgb(70, 69, 69); display: inline-block;}
+
+#rating{display: inline-block; margin-left:200px;font-size: larger;}
+
+#genre{margin: 5px; font-size: larger;}
+
+#plot{margin: 5px; font-size: larger;margin-top: 15px; width: 600px}
+
+#writer{margin: 5px; font-size: larger;}
+
+#actors{margin: 5px; font-size: larger;}
+
+#searchButton{
+  appearance: button;
+  background-color: #706eda;
+  background-image: linear-gradient(180deg, rgba(255, 255, 255, .15), rgba(255, 255, 255, 0));
+  border: 1px solid #4D4AE8;
+  border-radius: 1rem;
+  box-shadow: rgba(255, 255, 255, 0.15) 0 1px 0 inset,rgba(46, 54, 80, 0.075) 0 1px 1px;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: inline-block;
+  font-family: Inter,sans-serif;
+  font-size: 1rem;
+  font-weight: 500;
+  line-height: 1.5;
+  margin: 0;
+  padding: .5rem 1rem;
+  text-align: center;
+ }
+
