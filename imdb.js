@@ -19,7 +19,7 @@ const imgDiv = document.getElementById('imgDiv')
 
 async function goFetch(){
     try{let searchVal = searchBar.value
-        const response = await fetch(`http://www.omdbapi.com/?apikey=607bb5a1&t=${searchVal}&plot=full`)
+        const response = await fetch(`https://www.omdbapi.com/?apikey=607bb5a1&t=${searchVal}&plot=full`)
 
         const data = await response.json()
         if (data.Response === "False"){
