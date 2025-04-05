@@ -57,3 +57,25 @@
   text-align: center;
  }
 
+ @media screen and (max-width:1265px){
+    #header{
+        position: fixed;
+        top: 0;
+        left: 0;
+        right:0;
+        background-color: rgb(49, 49, 170);
+        height:80px;
+        padding-bottom: 10px;
+        text-align: center;
+    
+    }
+
+    #searchBar{
+        width:1000px;
+        height:45px;
+        border-radius: 10px;
+        margin-left: 50px;
+        font-size: medium;
+        margin-top: 20px;
+    }
+}
