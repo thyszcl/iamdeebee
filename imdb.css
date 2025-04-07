@@ -57,7 +57,7 @@
   text-align: center;
  }
 
- @media screen and (max-width:1265px){
+ @media screen and (max-width:1450px){
     #header{
         position: fixed;
         top: 0;
